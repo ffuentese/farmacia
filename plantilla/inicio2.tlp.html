@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Registro de Libros">
+
+		<title>Biblioteca &ndash; de &ndash; Santiago</title>
+
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
+		{validar}
+
+		<!--[if lte IE 8]>
+		<link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+		<![endif]-->
+		<!--[if gt IE 8]><!-->
+		<link rel="stylesheet" href="plantilla/css/layouts/side-menu.css">
+		<!--<![endif]-->
+
+	</head>
+	<body>
+
+		<div id="layout">
+			<!-- Menu toggle -->
+			<a href="#menu" id="menuLink" class="menu-link"> 
+				<!-- Hamburger icon --> <span></span> </a>
+
+			<div id="menu">
+				<div class="pure-menu">
+					<a class="pure-menu-heading" href="#">Biblioteca</a>
+
+					<ul class="pure-menu-list">
+						<li class="pure-menu-item">
+							<a href="index.php" class="pure-menu-link">Inicio</a>
+						</li>
+						<li class="pure-menu-item">
+							<a href="usuarios.php" class="pure-menu-link">Gestor de Usuario</a>
+						</li>
+						<li class="pure-menu-item">
+							<a href="informacion.php" class="pure-menu-link">Gestor de Información</a>
+						</li>
+						<li class="pure-menu-item">
+							<a href="gestorlibros.php" class="pure-menu-link">Inventario de Libros</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+
+			<div id="main">
+				<div class="header">
+					<h1>{titulo}</h1>
+
+				</div>
+				
+				<div class="content">
+
+				<section id="seccion1">
+					<article>
+						{seccion1}
+					</article>
+				</section>
+				<section id="seccion2">
+					<article>
+						{tablaEditorial}
+					</article>
+				</section>
+				<aside id="seccion3">
+					<article>
+						{seccion2}
+					</article>
+				</aside>
+				<section id="seccion4">
+					<article>
+						{tablaTema}
+					</article>
+				</section>
+				
+				
+
+			</div>
+		</div>
+
+		<script src="plantilla/js/ui.js"></script>
+
+	</body>
+</html>
