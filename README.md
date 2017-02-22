@@ -11,5 +11,5 @@ Contiene HTML con CSS y utiliza libSigma para el uso de plantillas. Utiliza MySQ
 
 El archivo "script_base.sql" contiene los datos de uso de la aplicación y crea la base de datos en MySQL. (En la carpeta dbconnect se puede configurar)
 
-El correo por defecto es gmail@gmail.com y la contraseña es 123456.
+El correo por defecto es gmail@gmail.com y la contraseña es 123456 (hash con sha1).
 
