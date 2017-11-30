@@ -10,13 +10,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     $_SESSION['num_tipo'] = $_POST['id_tipo'];
         header('Status: 301 Moved permantly', false, 301);
-	header('Location:/elmuertosano/app/modificarTipo.php');
+	header('Location:/app/modificarTipo.php');
 	exit();
 }    
  else {
 
     header('Status: 301 Moved permantly', false, 301);
-    header('Location:/elmuertosano/index.php');
+    header('Location:/index.php');
     exit();
 }
 ?>

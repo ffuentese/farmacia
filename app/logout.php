@@ -3,6 +3,6 @@
 	$_SESSION = array();
 	session_destroy();
 	header('Status: 301 Moved permanently', false, 301);
-	header('Location:/elmuertosano/app/login.php');
+	header('Location:/app/login.php');
 	exit();
 ?>

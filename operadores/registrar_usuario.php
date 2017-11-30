@@ -38,24 +38,24 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	
 	if($usuario_dao->crear($usuario)){
 		header('Status: 301 Moved permantly', false, 301);
-		header('Location:/elmuertosano/app/login.php');
+		header('Location:/app/login.php');
 		exit();
 	}
 	else {
 		header('Status: 301 Moved permantly', false, 301);
-		header('Location:/elmuertosano/app/registrarUsuario.php');
+		header('Location:/app/registrarUsuario.php');
 		exit();
 	}
         
         } else {
 		header('Status: 301 Moved permantly', false, 301);
-		header('Location:/elmuertosano/app/registrarUsuario.php');
+		header('Location:/app/registrarUsuario.php');
 		exit();
 	}
 
 } else {
 	header('Status: 301 Moved permantly', false, 301);
-	header('Location:/elmuertosano/index.php');
+	header('Location:/index.php');
 	exit();
 }
 ?>

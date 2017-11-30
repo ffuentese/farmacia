@@ -3,19 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/elmuertosano/dto/tipo_farmaco.php</file>
-            <file>file:/C:/xampp/htdocs/elmuertosano/dto/farmaco.php</file>
-            <file>file:/C:/xampp/htdocs/elmuertosano/operadores/registrar_detalle.php</file>
-            <file>file:/C:/xampp/htdocs/elmuertosano/dto/receta.php</file>
-            <file>file:/C:/xampp/htdocs/elmuertosano/app/detalleReceta.php</file>
-            <file>file:/C:/xampp/htdocs/elmuertosano/dao/farmaco_dao.php</file>
-            <file>file:/C:/xampp/htdocs/elmuertosano/operadores/registrar_farmaco.php</file>
-            <file>file:/C:/xampp/htdocs/elmuertosano/dao/receta_dao.php</file>
-            <file>file:/C:/xampp/htdocs/elmuertosano/operadores/eliminar_detalle.php</file>
-            <file>file:/C:/xampp/htdocs/elmuertosano/app/mantenedorFarmacos.php</file>
-            <file>file:/C:/xampp/htdocs/elmuertosano/app/ingresarReceta.php</file>
-            <file>file:/C:/xampp/htdocs/elmuertosano/operadores/modificar_receta.php</file>
-            <file>file:/C:/xampp/htdocs/elmuertosano/dao/detalle_receta_dao.php</file>
+            <file>file:/C:/xampp/htdocs/dto/tipo_farmaco.php</file>
+            <file>file:/C:/xampp/htdocs/dto/farmaco.php</file>
+            <file>file:/C:/xampp/htdocs/operadores/registrar_detalle.php</file>
+            <file>file:/C:/xampp/htdocs/dto/receta.php</file>
+            <file>file:/C:/xampp/htdocs/app/detalleReceta.php</file>
+            <file>file:/C:/xampp/htdocs/dao/farmaco_dao.php</file>
+            <file>file:/C:/xampp/htdocs/operadores/registrar_farmaco.php</file>
+            <file>file:/C:/xampp/htdocs/dao/receta_dao.php</file>
+            <file>file:/C:/xampp/htdocs/operadores/eliminar_detalle.php</file>
+            <file>file:/C:/xampp/htdocs/app/mantenedorFarmacos.php</file>
+            <file>file:/C:/xampp/htdocs/app/ingresarReceta.php</file>
+            <file>file:/C:/xampp/htdocs/operadores/modificar_receta.php</file>
+            <file>file:/C:/xampp/htdocs/dao/detalle_receta_dao.php</file>
         </group>
     </open-files>
 </project-private>

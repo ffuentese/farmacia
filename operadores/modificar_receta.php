@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 	$_SESSION['num_receta'] = $_POST['id_receta'];
         header('Status: 301 Moved permantly', false, 301);
-	header('Location:/elmuertosano/app/detalleReceta.php');
+	header('Location:/app/detalleReceta.php');
 	exit();
         
         
@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 } else {
 	header('Status: 301 Moved permantly', false, 301);
-	header('Location:/elmuertosano/index.php');
+	header('Location:/index.php');
 	exit();
 }
 ?>

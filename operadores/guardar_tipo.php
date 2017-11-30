@@ -18,24 +18,24 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	
 	if($tipo_farmaco_dao->actualizar($tipo)){
 		header('Status: 301 Moved permantly', false, 301);
-		header('Location:/elmuertosano/app/mantenedorTiposFarmacos.php');
+		header('Location:/app/mantenedorTiposFarmacos.php');
 		exit();
 	}
 	else {
 		header('Status: 301 Moved permantly', false, 301);
-		header('Location:/elmuertosano/app/mantenedorTiposFarmacos.php');
+		header('Location:/app/mantenedorTiposFarmacos.php');
 		exit();
 	}
         
     } else {
 		header('Status: 301 Moved permantly', false, 301);
-		header('Location:/elmuertosano/app/mantenedorTiposFarmacos.php');
+		header('Location:/app/mantenedorTiposFarmacos.php');
 		exit();
 	}
 
 } else {
 	header('Status: 301 Moved permantly', false, 301);
-	header('Location:/elmuertosano/index.php');
+	header('Location:/index.php');
 	exit();
 }
 ?>

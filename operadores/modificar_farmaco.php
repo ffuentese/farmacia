@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 	$_SESSION['num_farmaco'] = $_POST['id_farmaco'];
         header('Status: 301 Moved permantly', false, 301);
-	header('Location:/elmuertosano/app/modificarFarmaco.php');
+	header('Location:/app/modificarFarmaco.php');
 	exit();
         
         
@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 } else {
 	header('Status: 301 Moved permantly', false, 301);
-	header('Location:/elmuertosano/index.php');
+	header('Location:/index.php');
 	exit();
 }
 ?>

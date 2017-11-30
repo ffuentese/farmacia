@@ -25,24 +25,24 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	if($receta_dao->crear($receta)){
                 $_SESSION['num_receta'] = $receta->id_receta;
 		header('Status: 301 Moved permantly', false, 301);
-		header('Location:/elmuertosano/app/detalleReceta.php');
+		header('Location:/app/detalleReceta.php');
 		exit();
 	}
 	else {
 		header('Status: 301 Moved permantly', false, 301);
-		header('Location:/elmuertosano/app/mantenedorFarmacos.php');
+		header('Location:/app/mantenedorFarmacos.php');
 		exit();
 	}
         
         } else {
 		header('Status: 301 Moved permantly', false, 301);
-		header('Location:/elmuertosano/app/mantenedorFarmacos.php');
+		header('Location:/app/mantenedorFarmacos.php');
 		exit();
 	}
 
 } else {
 	header('Status: 301 Moved permantly', false, 301);
-	header('Location:/elmuertosano/index.php');
+	header('Location:/index.php');
 	exit();
 }
 ?>

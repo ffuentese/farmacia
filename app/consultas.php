@@ -10,7 +10,7 @@ $plantilla->loadTemplateFile('inicio.tlp.html');
 session_start();
 if (!isset($_SESSION['usuario']) | !$_SESSION['usuario']) {
     header('Status: 301 Moved permantly', false, 301);
-    header('Location:/elmuertosano/app/login.php');
+    header('Location:/app/login.php');
     exit();
 } else {
     $detalle_receta_dao = new Detalle_RecetaDAO();

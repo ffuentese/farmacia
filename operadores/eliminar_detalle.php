@@ -13,18 +13,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if ($detalle_receta_dao->borrar($id_farmaco, $id_receta)) {
 
         header('Status: 301 Moved permantly', false, 301);
-        header('Location:/elmuertosano/app/detalleReceta.php');
+        header('Location:/app/detalleReceta.php');
         exit();
     } else {
         echo "<script>
 alert('Hubo un problema al intentar eliminar el detalle');
-window.location.href='/elmuertosano/app/detalleReceta.php';
+window.location.href='/app/detalleReceta.php';
 </script>";
     }
 } else {
 
     header('Status: 301 Moved permantly', false, 301);
-    header('Location:/elmuertosano/index.php');
+    header('Location:/index.php');
     exit();
 }
 ?>

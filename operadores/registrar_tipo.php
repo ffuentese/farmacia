@@ -22,29 +22,29 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if ($tipos_farmacos->crear($tipo_farmaco)) {
 
             header('Status: 301 Moved permantly', false, 301);
-            header('Location:/elmuertosano/app/mantenedorTiposFarmacos.php');
+            header('Location:/app/mantenedorTiposFarmacos.php');
             exit();
         } else {
             echo "<script>
 alert('Hubo un problema al guardar el tipo de fármaco');
-window.location.href='/elmuertosano/app/mantenedorTiposFarmacos.php';
+window.location.href='/app/mantenedorTiposFarmacos.php';
 </script>";
         }
     } else {
         echo "<script>
 alert('Ya existe un tipo de fármaco con ese nombre');
-window.location.href='/elmuertosano/app/mantenedorTiposFarmacos.php';
+window.location.href='/app/mantenedorTiposFarmacos.php';
 </script>";
     }
     } else {
             header('Status: 301 Moved permantly', false, 301);
-            header('Location:/elmuertosano/app/mantenedorTiposFarmacos.php');
+            header('Location:/app/mantenedorTiposFarmacos.php');
             exit();
     }
 } else {
 
     header('Status: 301 Moved permantly', false, 301);
-    header('Location:/elmuertosano/index.php');
+    header('Location:/index.php');
     exit();
 }
 ?>

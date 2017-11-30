@@ -126,6 +126,7 @@ class UsuarioDAO implements IPersistencia {
                 }
 
                 $password_hashed = sha1($correo . $password);
+                echo '<script>console.log('. $password_hashed . ')</script>';
             }
             $conexion->close();
         } catch (Exception $e) {

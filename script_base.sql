@@ -156,7 +156,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id_usuario`, `login_usuario`, `pass_usuario`, `nombre_usuario`, `apellido_usuario`, `correo_usuario`, `edad_usuario`, `codigo_perfil`, `fechaNacimiento_usuario`) VALUES
-(1, 'prueba', '7c4a8d09ca3762af61e59520943dc26494f8941b', 'F', 'Fuentes', 'gmail@gmail.com', NULL, 1, '1988-01-01');
+(1, 'prueba', '5d91041a1f57c9c934b97aba5146ab6435465df0', 'F', 'Fuentes', 'gmail@gmail.com', NULL, 1, '1988-01-01');
 
 --
 -- Índices para tablas volcadas

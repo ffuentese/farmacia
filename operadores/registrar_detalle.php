@@ -29,18 +29,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $med->unidad = $med->unidad - $detalle->cantidad;
             $farmaco_dao->actualizar($med);
             header('Status: 301 Moved permantly', false, 301);
-            header('Location:/elmuertosano/app/detalleReceta.php');
+            header('Location:/app/detalleReceta.php');
             exit();
         } else {
             echo "<script>
 alert('Hubo un problema al intentar guardar el detalle');
-window.location.href='/elmuertosano/app/detalleReceta.php';
+window.location.href='/app/detalleReceta.php';
 </script>";
         }
     } else {
         echo "<script>
 alert('No hay stock suficiente para satisfacer la solicitud');
-window.location.href='/elmuertosano/app/detalleReceta.php';
+window.location.href='/app/detalleReceta.php';
 </script>";
     }
     
@@ -48,13 +48,13 @@ window.location.href='/elmuertosano/app/detalleReceta.php';
     
     else {
             header('Status: 301 Moved permantly', false, 301);
-            header('Location:/elmuertosano/app/detalleReceta.php');
+            header('Location:/app/detalleReceta.php');
             exit();
     }
 } 
 else {
     header('Status: 301 Moved permantly', false, 301);
-    header('Location:/elmuertosano/index.php');
+    header('Location:/index.php');
     exit();
 }
 ?>
